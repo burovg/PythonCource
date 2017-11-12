@@ -23,10 +23,10 @@ ls = ls.replace(c,"Gershon")
 
 
 ts = ls + sms + s3
-for ch in ts:
-    if ch == "A" :
-        count = count +1
-print count
+#for ch in ts:
+#    if ch == "A" :
+#        count = count +1
+print ts.count("A")
 
 
 
